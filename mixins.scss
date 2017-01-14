@@ -1,0 +1,23 @@
+@mixin indice{
+  font-family: $textfont;
+  font-size: 11pt;
+}
+@mixin subtitulos{  //h3
+  font-family: $textfont;
+  font-weight: bold;
+  font-size: 30pt;
+  color:rgb(0, 33, 255);
+  padding-left:80px;
+}
+@mixin textos{
+  font-family: $textfont;
+  font-weight:lighter;
+  font-size: 15pt;
+  line-height: normal;
+  color:rgba(0, 0, 0, 0.53);
+}
+@mixin legendas{
+  font-family: $textfont;
+  font-weight:lighter;
+  font-size: 10pt;
+}
